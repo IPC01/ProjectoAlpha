@@ -11,7 +11,7 @@ class Especialidades{
 
     }
 
-    public function getId_especialidade($id_especialidade){
+    public function getId_especialidade(){
         return $this->id_especialidade;
     }
 
@@ -22,7 +22,7 @@ class Especialidades{
 
     }
 
-    public function getNome_especialidade($nome_especialidade){
+    public function getNome_especialidade(){
         return $this->nome_especialidade;
     }
 
@@ -33,7 +33,7 @@ class Especialidades{
 
     }
 
-    public function getDescricao($id_especialidade){
+    public function getDescricao(){
         return $this->id_especialidade;
     }
 }

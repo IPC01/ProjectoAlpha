@@ -1,0 +1,35 @@
+.text-dir{
+    text-align: right;
+}
+.text-center{
+  text-align: center;
+}
+
+.a-color{
+    color: white;
+}
+#lin{
+  color: black;
+}
+
+.a-color:hover{
+  color: rgb(132, 68, 7);
+}
+
+.dial{
+ 
+  border-color:  rgb(132, 68, 7);
+  border-radius: 10px;
+  width: 250px;
+  height: 370px;
+}
+
+#email,#senha,#sub,#user{
+  border-radius: 5px;
+  border-color:  rgb(132, 68, 7);
+  border:o.5px;
+  padding: 3px;
+  margin: 10px 30px 10px 10px;
+  align-content: center;
+ 
+}

@@ -68,7 +68,12 @@
 
 
 
- 
+ #imagem{
+   border-radius: 50px;
+ }
+ .imagem{
+  height: 500px;
+ }
  
  
   

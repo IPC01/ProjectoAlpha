@@ -50,7 +50,7 @@ if (
     }
   }
    //telefone tem 9 caracteres e prefixo 8 (2|3|4|5|6|7)
-  if(preg_match('/8[2-7][0-9]{7}/', $telefone) == false){
+  if(preg_match('/8[2-7]{1}[0-9]{7}/', $telefone) == false){
     die("telefone Invalid0");
   }
 
@@ -91,7 +91,7 @@ if (empty($email1)) {
     ':id'=>$id,
    ':nome'=>$nome,
    ':email'=>$email,
-   ':senha'=>$senha,
+   ':senha'=>password_hash($senha,PASSWORD_DEFAULT) ,
    ':tipo'=>$tipo,
    ':bi'=>$bi,
    ':telefone'=>$telefone,

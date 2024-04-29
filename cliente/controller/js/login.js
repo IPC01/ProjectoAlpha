@@ -26,3 +26,5 @@ function validar(){
         return false;
     }
     }
+
+    //abrir login para area reservada

@@ -19,7 +19,7 @@ include 'controller/php/gestor.php';
                   <h3><?php echo $r['descricao'];?></h3>
                 </div>
                 <div id="image" class="imagem">
-                    <img src="../Alfaiates/<?php echo $r['img']?>" alt="" srcset="" width="250">
+                    <img src="../Alfaiates/<?php echo $r['img']?>" alt="" srcset="" width="250" id="imagem">
                </div>
 
                <div class="ld">

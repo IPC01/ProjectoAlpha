@@ -15,12 +15,30 @@ body{
    
 
 }
+.cont{
+  width: 78%;
+  margin-left:2%;
+   border: 2px solid rgb(26, 182, 244) ;
+ 
+   justify-content: space-evenly;
+   padding: 2%;
+  
+
+}
 
 .nav{
     border: 2px solid rgb(26, 182, 244);
     width: 15%;
     height: 680px;
+    text-align: center;
+    padding-top: 70px;
+
     
+}
+a{
+  text-decoration: none;
+  margin: 30px;
+  font-size: 20px;
 }
 .flex{
    display: flex;
